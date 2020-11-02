@@ -1,0 +1,275 @@
+@font-face { font-family: Casper; src: url(fonts/Casper.ttf); }
+@font-face { font-family: Bebas; src: url(fonts/Bebas.ttf); }
+@font-face { font-family: Segoe; src: url(fonts/Segoe.ttf); }
+@font-face { font-family: Franklin; src: url(fonts/Franklin.ttf); }
+
+@keyframes increase
+{
+	from {-webkit-background-size: 100%;
+			background-size: 100%;}
+	to {-webkit-background-size: 130%;
+			background-size: 130%;}
+}
+@keyframes change-color
+{
+	from { background-color: rgba(255,255,255,.7); }
+	to { background-color: rgba(255,255,255,0); }
+}
+
+* { margin: 0; padding: 0; }
+a { color: black; text-decoration: none; }
+
+/*<-------------Header------------->*/
+.logo-head
+{
+	height: 180px;
+	font-family: Casper;
+	font-size: 23px;
+	color: #1e3d69;
+	font-family: Casper;
+}
+.logo
+{
+	margin-left: 66px;
+	position: relative;
+	height: 100%;
+	float: left;
+	color: #1e3d69;
+}
+.logo img 
+{ 
+	float: left; 
+	margin-top: 35px;
+}
+.logo-text
+{
+	float: right;
+	margin-left: 10px;
+}
+#school
+{
+	margin-top: 60px;
+}
+#engine
+{
+	font-family: Bebas;
+	font-size: 35px;
+	font-weight: bold;
+}
+.info
+{
+	float: right;
+	margin-top: 70px;
+	margin-right: 115px;
+}
+.head
+{
+	height: 640px;
+	background: url("images/children1.jpg") center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+.head-bg
+{
+	height: 345px;
+	width: 50%;
+	background-color: rgba(30,61,105,.7);
+	position: absolute;
+	left: 25%;
+	top: 120px;
+	border: 3px solid rgba(255,255,255,.7);
+	display: table;
+}
+.head-bg a 
+{
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+h1
+{
+	font-family: Bebas;
+	color: #fff;
+	font-size: 70px;
+}
+
+
+/*<--------------------Section About------------------->*/
+.about
+{
+	height: 280px;
+}
+.about-wrapper
+{
+	width: 60%;
+	margin-left: 17%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 20px;
+}
+.about img
+{
+	width: 216px;
+	height: 215px;
+}
+.about-text
+{
+	margin-left: 25px;
+}
+.about-text h6
+{
+	font-family: Bebas;
+	font-size: 23px;
+	color: #1e3d69;
+}
+.about-text p
+{
+	margin-top: 15px;
+	font-family: Segoe;
+	font-size: 1vw;
+	font-weight: bold;
+}
+
+
+/*<-------------Section News-------------->*/
+.news
+{
+	height: 600px;
+}
+.news h5
+{
+	font-family: Bebas;
+	font-size: 35px;
+	color: #1e3d69;
+	text-align: center;
+}
+.news-place
+{
+	height: 390px;
+	background: url("images/child1.jpg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 40px;
+	position: relative;
+}
+.mask
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.7);
+	display: table;
+}
+.news-place h2
+{
+	text-align: center;
+	font-family: Bebas;
+	font-size: 75px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.btn-news
+{
+	background-color: #eedca5;
+	padding: 10px 40px;
+	position: relative;
+	top: 25px;
+	font-family: Franklin;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 17%;
+}
+
+
+/*<-----------Section Curses--------->*/
+.curses
+{
+	width: 100%;
+	margin-bottom: 80px;
+	background-color: #eedca5;
+}
+.curses h5
+{
+	padding-top: 30px;
+	font-family: Bebas;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+}
+.curses-content
+{
+	width: 100%;
+	padding-top: 30px;
+	height: 25vw;
+}
+.curses-wrapper
+{
+	margin: auto;
+	width: 63%;
+	height: 95%;
+}
+.curse
+{
+	display: inline-block;
+	height: 95%;
+	width: 32%;
+	margin-left: .7%;
+}
+.robotech
+{
+	background: url("images/mini-robot.jpg") center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.graphic
+{
+	background: url("images/graphic.jpg") center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.model
+{
+	background: url("images/model.jpg") center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.curse-mask
+{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.7);
+	display: table;
+	position: relative;
+}
+.curse-mask p
+{
+	font-family: Bebas;
+	font-size: 3vw;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.curse:hover
+{
+	animation-name: increase;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+.curse:hover .curse-mask
+{
+	animation-name: change-color;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+.curse:hover p
+{
+	display: none;
+}
