@@ -1,0 +1,145 @@
+.curses {
+	width: 100%;
+	margin-bottom: 80px;
+	background-color: #eedca5;
+	margin-top: 50px;
+}
+
+.curses h5 {
+	padding-top: 30px;
+	font-family: Bebas;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+.curses_content {
+	width: 100%;
+	padding: 30px 0;
+	height: 25vw;
+}
+
+.curses_wrapper {
+	margin: auto;
+	width: 63%;
+	height: 95%;
+}
+
+.curse {
+	display: inline-block;
+	height: 100%;
+	width: 32%;
+	margin-left: .7%;
+	vertical-align: top;
+}
+
+.robotech {
+	background: url("../images/mini-robot.jpg") center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.graphic {
+	background: url("../images/graphic.jpg") center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.model {
+	background: url("../images/model.jpg") center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.curse_mask {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.7);
+	position: relative;
+}
+
+.curse_mask p {
+	font-family: Bebas;
+	font-size: 2.3em;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+}
+
+.curse:hover {
+	animation-name: increase;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+.curse:hover .curse_mask {
+	animation-name: change-color;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+.curse:hover p {
+	display: none;
+}
+
+
+@media (max-width: 1200px) {
+	.curse_mask p {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 1024px) {
+	.curse_mask p {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 768px) {
+	.curses_wrapper {
+		width: 80%;
+	}
+}
+
+@media (max-width: 640px) {
+	.curses h5 {
+		font-size: 1.5em;
+	}
+
+	.curse {
+		margin-left: .5%;
+	}
+
+	.curse_mask p {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 440px) {
+	.curses {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	.curses h5 {
+		font-size: 1.3em;
+		padding-top: 15px;
+	}
+
+	.curses_content {
+		padding: 15px 0;
+	}
+
+	.curse {
+		margin-left: .3%;
+	}
+
+	.curse_mask p {
+		font-size: .7em;
+	}
+}

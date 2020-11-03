@@ -2,19 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>School</title>
-	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>School</title>
+
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/main_header.css">
+	<link rel="stylesheet" href="styles/about_us.css">
+	<link rel="stylesheet" href="styles/news.css">
+	<link rel="stylesheet" href="styles/curses.css">
+	<link rel="stylesheet" href="styles/map.css">
 </head>
 <body>
 
-	<header>
-		<div class="logo-head">
+	<header class="logo_and_info">
+		<div class="logo_head">
 			<a class="logo" href="">
-				<img src="images/logo.png" alt="">
-				<div class="logo-text">
-					<p id="school">ГБОУ Школа 1506</p>
-					<p id="engine">ДВИГАТЕЛЬ ПРОГРЕССА</p>
+				<img src="images/logo.png" alt="" class="logo_image">
+				<div class="logo_text">
+					<p class="first_logo_string">ГБОУ Школа 1506</p>
+					<p class="second_logo_string">ДВИГАТЕЛЬ ПРОГРЕССА</p>
 				</div>
 			</a>
 			<div class="info">
@@ -22,17 +30,16 @@
 				<p>г.Москва, ул. Широкая, дом 1А</p>
 			</div>
 		</div>
-		<div class="head">
-			<div class="head-bg">
-				<a href="#our-curses"><h1>ИНЖЕНЕРНЫЕ КУРСЫ</h1></a>
-			</div>
-		</div>
+	</header>
+
+	<header class="main_header">
+		<h1 class="head_bg"><a href="#our-curses">ИНЖЕНЕРНЫЕ КУРСЫ</a></h1>
 	</header>
 
 	<section class="about">
-		<div class="about-wrapper">
+		<div class="about_wrapper">
 			<img src="images/robot.jpg" alt="">
-			<div class="about-text">
+			<div class="about_text">
 				<h6>О НАС</h6>
 				<p>Роботы в первую очередь ассоциируются с высокими технологиями будущего. Однако считается, что первый проект машины, способной заменить человека, принадлежит Леонардо да Винчи. Среди его бумаг был найден эскиз робота, который мог приподниматься, садиться, двигать руками и крутить головой. Правда, до сих пор неизвестно, была ли задумка претворена в жизнь. Более того, уже сегодня в быту люди используют множество роботов различного назначения: от робота-пылесоса до робота-художника.</p>
 			</div>
@@ -41,34 +48,37 @@
 
 	<section class="news">
 		<h5>НОВОСТИ</h5>
-		<div class="news-place">
+		<div class="news_place">
 			<div class="mask">
 				<h2>МЕСТО ПОД НОВОСТИ</h2>
 			</div>
 		</div>
-		<a class="btn-news" href="">К архиву новостей</a>
+		<a class="btn_news" href="">К архиву новостей</a>
 	</section>
 
 	<section class="curses" id="our-curses">
 		<h5>НАШИ КУРСЫ</h5>
-		<div class="curses-content">
-			<div class="curses-wrapper">
+		<div class="curses_content">
+			<div class="curses_wrapper">
 				<a class="robotech curse" href="curses/curse1.html">
-					<div class="curse-mask">
+					<div class="curse_mask">
 						<p>РОБОТОТЕХНИКА</p>
 					</div>
 				</a>
 				<a class="graphic curse" href="">
-					<div class="curse-mask"><p>ИНЖЕНЕРНАЯ ГРАФИКА</p></div>
+					<div class="curse_mask"><p>ИНЖЕНЕРНАЯ ГРАФИКА</p></div>
 				</a>
 				<a class="model curse" href="">
-					<div class="curse-mask"><p>3D МОДЕЛИРОВАНИЕ</p></div>
+					<div class="curse_mask"><p>3D&nbsp;МОДЕЛИРОВАНИЕ</p></div>
 				</a>
 			</div>
 		</div>
 	</section>
 	
-	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aea2b6020cf3edfa691b2fb74f3387b3be48c6846e29daed7213a4cfa30604e3a&amp;width=100%25&amp;height=510&amp;lang=ru_RU&amp;scroll=true"></script>
+	<section class="map">
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aea2b6020cf3edfa691b2fb74f3387b3be48c6846e29daed7213a4cfa30604e3a&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true">
+		</script>
+	</section>
 
 </body>
 </html>

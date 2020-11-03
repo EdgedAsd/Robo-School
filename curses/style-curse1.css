@@ -8,7 +8,7 @@ a { color: black; text-decoration: none; }
 
 
 /*<-------------Header------------->*/
-.logo-head
+.logo_head
 {
 	margin-top: 10px;
 	font-family: Casper;
@@ -33,7 +33,7 @@ a { color: black; text-decoration: none; }
 { 
 	float: left; 
 }
-.logo-text
+.logo_text
 {
 	float: right;
 	margin-top: 40px;
@@ -59,7 +59,7 @@ a { color: black; text-decoration: none; }
 	background-size: cover;
 	position: relative;
 }
-.head-bg
+.head_bg
 {
 	height: 190px;
 	width: 56%;
@@ -70,7 +70,7 @@ a { color: black; text-decoration: none; }
 	border: 3px solid rgba(255,255,255,.7);
 	display: table;
 }
-.head-bg a 
+.head_bg a 
 {
 	text-align: center;
 	vertical-align: middle;
@@ -85,13 +85,13 @@ h1
 
 
 /*<--------------------Section Curse------------------->*/
-.curse-info
+.curse_info
 {
 	width: 100%;
 	margin-top: 30px;
 	margin-bottom: 100px;
 }
-.curse-wrapper
+.curse_wrapper
 {
 	width: 75%;
 	margin-left: 12.5%;
@@ -102,7 +102,7 @@ h1
 	float: left;
 	margin-right: 30px;
 }
-.curse-info img
+.curse_info img
 {
 	margin-bottom: 10px;
 }
@@ -123,7 +123,7 @@ h1
 }
 
 
-.main-text
+.main_text
 {
 	font-family: Akrobat;
 	font-size: 12px;
@@ -170,7 +170,7 @@ h1
 
 @media (max-width: 920px)
 {
-	.logo-head
+	.logo_head
 	{
 		text-align: center;
 	}
@@ -189,7 +189,7 @@ h1
 		float: left;
 		margin-right: 20px;
 	}
-	.logo-text
+	.logo_text
 	{
 		display: inline-block;
 		margin-top: 30px;
@@ -201,7 +201,7 @@ h1
 }
 @media (max-width: 830px)
 {
-	/*.head-bg 
+	/*.head_bg 
 	{ 
 		height: 100px;
 		width: 80%;
@@ -223,7 +223,7 @@ h1
 		width: 70px;
 		height: 70px;
 	}
-	.logo-text
+	.logo_text
 	{
 		font-size: 15px;
 		margin-top: 20px;
@@ -233,7 +233,7 @@ h1
 		font-size: 25px;
 	}
 	.head { height: 200px; }
-	.head-bg 
+	.head_bg 
 	{ 
 		height: 100px;
 		width: 80%;

@@ -1,0 +1,106 @@
+.main_header {
+	height: 640px;
+	background: url("../images/children1.jpg") center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+
+h1 {
+	height: 345px;
+	width: 50%;
+	background-color: rgba(30,61,105,.7);
+	position: absolute;
+	left: 25%;
+	top: 120px;
+	border: 3px solid rgba(255,255,255,.7);
+	line-height: 345px;
+	text-align: center;
+}
+
+.head_bg a {
+	width: 100%;
+	height: 100%;
+	font-family: Bebas;
+	color: #fff;
+	font-size: 5rem;
+	display: block;
+}
+
+
+@media (max-width: 1200px) {
+	.main_header {
+		height: 600px;
+	}
+	
+	h1 {
+		height: 300px;
+		line-height: 300px;
+	}
+
+	.head_bg a {
+		font-size: 4rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.main_header {
+		height: 550px;
+	}
+	
+	h1 {
+		height: 250px;
+		line-height: 250px;
+	}
+
+	.head_bg a {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.main_header {
+		height: 450px;
+	}
+	
+	h1 {
+		height: 200px;
+		line-height: 200px;
+	}
+
+	.head_bg a {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.main_header {
+		height: 300px;
+	}
+	
+	h1 {
+		height: 150px;
+		line-height: 150px;
+		top: 75px;
+	}
+
+	.head_bg a {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 440px) {
+	.main_header {
+		height: 200px;
+	}
+	
+	h1 {
+		height: 100px;
+		line-height: 100px;
+		top: 50px;
+	}
+
+	.head_bg a {
+		font-size: 1rem;
+	}
+}
